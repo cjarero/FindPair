@@ -8,7 +8,7 @@ def find_pair(array, sum) -> [1, 2]:
     Retorna:
         array -- array of two elements with the integers of sum to find
     """
-    #O(n^2)
+    #O(n^2) 
     i = 0
     stop_loops = True
     result = []
