@@ -23,6 +23,3 @@ def find_pair(array, sum) -> [1,2]:
         i+=1
         
     return array_result
-
-c= find_pair([4,6,9,15,73,5],88)
-print (c)
