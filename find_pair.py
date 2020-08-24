@@ -11,16 +11,18 @@ def find_pair(array, sum) -> [1,2]:
         array -- array of two elements with the integers of sum to find
     """
 
-    #Se utiliza O(n2): cuadrática.
+    #Se utiliza O(AB).
     i = 0
-    ban = True
-    while ban:
+    while i<len(array):
 
         for j in range(len(array)):
             if array[i] + array[j] == sum:
                 array_result=[array[i],array[j]]
-                ban = False
+                i= len(array)
                 break
         i+=1
         
     return array_result
+
+c= find_pair([4,6,9,15,73,5],88)
+print (c)
