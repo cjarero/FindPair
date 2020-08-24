@@ -9,3 +9,12 @@ def find_pair(array, sum) -> [1,2]:
     Retorna:
         array -- array of two elements with the integers of sum to find
     """
+
+     #O(n2)
+
+    array_result = []
+    for i in range(len(array)):
+        for j in range(len(array)):
+                if (array[i] + array[j]) == sum and i!=j:
+                    array_result = [array[i], array[j]]
+    return array_result
