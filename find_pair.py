@@ -27,3 +27,5 @@ def find_pair(array, sum) -> [1,2]:
     
 #print(find_pair([1,3,4,5,6],11))
 #print(find_pair([1,3,4,5,6],11))
+
+# El orden es nlogn
